@@ -16,6 +16,13 @@
                 <configuration>
                     <source>8</source> <!--compiled from java8-->
                     <target>8</target> <!--compiled to java8-->
+                    <archive>
+                        <manifest>
+                            <main.Class>
+                                com.github.curriculeon.TestSuite
+                            </main.Class>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
