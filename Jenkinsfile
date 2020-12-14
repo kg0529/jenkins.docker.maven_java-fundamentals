@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                sh 'git clone https://github.com/curriculeon-student/maven.java-fundamentals'
+                sh 'https://github.com/kg0529/jenkins.docker.maven_java-fundamentals.git'
             }
         }
 
